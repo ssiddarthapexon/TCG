@@ -1,0 +1,201 @@
+
+┌─ Message ───────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│ Generate and validate test cases for the following user story:              │
+│                                                                             │
+│ Live Chat                                                                   │
+│                                                                             │
+│ Entering a Live Chat in a Community                                         │
+│                                                                             │
+│ · Visibility: The "Live Chat" button should be clearly visible at the top   │
+│ of the community page.                                                      │
+│ · Quick Access: Tapping the "Live Chat" button should immediately open the  │
+│ live chat interface without delays.                                         │
+│ · Real-Time Communication: The chat should allow for real-time discussions  │
+│ with other users in the community.                                          │
+│                                                                             │
+│ Chat Features:                                                              │
+│                                                                             │
+│ · Photos: User can attach a photo to a live chat from their camera or their │
+│ photo library, and preview before sending                                   │
+│ · GIF’s: Users search the Giphy lirbary, attach a GIF to a live chat, and   │
+│ preview before sending. The Gif should be animated upon sending.            │
+│ · Paid messages: Users can send a private message with a payment request,   │
+│ requiring that the payment is made before the message can be viewed.        │
+│ · Reactions: Users can give a thumbs up/down reaction to a specific message │
+│ by long-pressing it                                                         │
+│ · Reply to a specific message: Users can reply to a specific message by     │
+│ long-pressing it, and the response will be connected to the original        │
+│ message.                                                                    │
+│                                                                             │
+│ Live Chat Administration                                                    │
+│                                                                             │
+│ Hide or Enable the "Live Chat" Button                                       │
+│                                                                             │
+│ · Toggle Functionality: The app should provide a clear and accessible       │
+│ option for hiding or enabling the "live chat" button.                       │
+│ · Immediate Application: Changes made by the administrator should take      │
+│ effect immediately, with the live chat button being either removed or       │
+│ displayed based on the admin's selection.                                   │
+│ · Visibility of Changes: The platform should clearly display the current    │
+│ status of the live chat feature.                                            │
+│ · Reversibility: The Community administrator should be able to switch the   │
+│ live chat button on and off as needed.                                      │
+│                                                                             │
+│ Pinning a Message in a Live Chat                                            │
+│                                                                             │
+│ · Pinning Functionality: The chat interface should provide an option for    │
+│ admins to pin and unpin messages easily.                                    │
+│ · Visibility: Pinned messages should remain at the top of the chat window   │
+│ and be visible to all participants, regardless of new messages being sent.  │
+│ · Admin Control: Only admins should have the ability to pin and unpin       │
+│ messages, ensuring that the feature is used to highlight important          │
+│ information.                                                                │
+│ · Multiple Pinned Messages: Consider allowing multiple messages to be       │
+│ pinned, or provide a clear indication if only one message can be pinned at  │
+│ a time, with the option to replace the currently pinned message.            │
+│ · Unpinning: Admins should be able to unpin a message at any time,          │
+│ returning it to its original place in the chat history or removing it from  │
+│ the pinned position                                                         │
+│                                                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+┌─ Response (28.4s) ──────────────────────────────────────────────────────────┐
+│                                                                             │
+│                                                                             │
+│   1 Test Case Title: Verify Visibility of Live Chat Button                  │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The community page is open and visible.               │
+│      • Steps:                                                               │
+│         • Step 1: Navigate to the community page.                           │
+│         • Step 2: Observe the top section of the page.                      │
+│         • Step 3: Verify that the "Live Chat" button is clearly visible.    │
+│      • Expected Result: The "Live Chat" button should be easily             │
+│        identifiable and prominently displayed.                              │
+│   2 Test Case Title: Validate Quick Access to Live Chat Interface           │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The community page is open and the "Live Chat" button │
+│        is visible.                                                          │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Live Chat" button.                               │
+│         • Step 2: Observe the interface for any delays in loading the live  │
+│           chat.                                                             │
+│         • Step 3: Verify that the live chat interface is now open and ready │
+│           for use.                                                          │
+│      • Expected Result: The live chat interface should open immediately     │
+│        with no noticeable delay.                                            │
+│   3 Test Case Title: Confirm Real-Time Communication in Live Chat           │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Send a message to another user in the live chat.          │
+│         • Step 2: Observe the message appearing in the chat window for both │
+│           users.                                                            │
+│         • Step 3: Send a response from the other user.                      │
+│         • Step 4: Observe the response appearing in the chat window for     │
+│           both users.                                                       │
+│      • Expected Result: Messages should appear in real-time for all         │
+│        participants in the live chat.                                       │
+│   4 Test Case Title: Validate Attachment of Photos in Live Chat             │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Attach Photo" option.                            │
+│         • Step 2: Select an image from the camera or photo library.         │
+│         • Step 3: Preview the selected image.                               │
+│         • Step 4: Send the image in the live chat.                          │
+│         • Step 5: Observe the image appearing in the chat window for both   │
+│           users.                                                            │
+│      • Expected Result: The attached photo should appear in the live chat   │
+│        for all participants.                                                │
+│   5 Test Case Title: Validate Attachment of GIFs in Live Chat               │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Attach GIF" option.                              │
+│         • Step 2: Search for a GIF using the Giphy library.                 │
+│         • Step 3: Select a GIF from the search results.                     │
+│         • Step 4: Preview the selected GIF.                                 │
+│         • Step 5: Send the GIF in the live chat.                            │
+│         • Step 6: Observe the GIF appearing in the chat window for both     │
+│           users.                                                            │
+│      • Expected Result: The attached GIF should appear in the live chat and │
+│        animate for all participants.                                        │
+│   6 Test Case Title: Validate Paid Message Feature in Live Chat             │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Send Private Message" option.                    │
+│         • Step 2: Enter a message and include a payment request.            │
+│         • Step 3: Send the message.                                         │
+│         • Step 4: Observe the message appearing in the chat window for both │
+│           users.                                                            │
+│         • Step 5: Verify that the recipient cannot view the message until   │
+│           the payment is made.                                              │
+│      • Expected Result: The private message with payment request should not │
+│        be visible to the recipient until the payment is made.               │
+│   7 Test Case Title: Validate Reactions in Live Chat                        │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Long-press a specific message to reveal reaction options. │
+│         • Step 2: Select a reaction (thumbs up/down).                       │
+│         • Step 3: Observe the reaction appearing in the chat window for     │
+│           both users.                                                       │
+│      • Expected Result: The selected reaction should appear in the live     │
+│        chat for all participants.                                           │
+│   8 Test Case Title: Validate Replying to a Specific Message in Live Chat   │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The live chat interface is open and a conversation is │
+│        active.                                                              │
+│      • Steps:                                                               │
+│         • Step 1: Long-press a specific message to reveal reply options.    │
+│         • Step 2: Select the "Reply" option.                                │
+│         • Step 3: Enter a response.                                         │
+│         • Step 4: Send the response.                                        │
+│         • Step 5: Observe the response appearing in the chat window for     │
+│           both users, connected to the original message.                    │
+│      • Expected Result: The reply should appear in the live chat and be     │
+│        connected to the original message for all participants.              │
+│   9 Test Case Title: Verify Toggle Functionality for Live Chat Button       │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The community page is open and the "Live Chat" button │
+│        is visible.                                                          │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Live Chat" button to open the interface.         │
+│         • Step 2: Tap the "Toggle Live Chat" option (if available).         │
+│         • Step 3: Observe the "Live Chat" button on the community page for  │
+│           any changes in visibility.                                        │
+│      • Expected Result: The "Live Chat" button should become visible or     │
+│        invisible based on the toggle option.                                │
+│  10 Test Case Title: Validate Quick Access to Live Chat Interface after     │
+│     Toggle                                                                  │
+│      • Test Type: Positive                                                  │
+│      • Priority: High                                                       │
+│      • Preconditions: The "Live Chat" button is invisible on the community  │
+│        page.                                                                │
+│      • Steps:                                                               │
+│         • Step 1: Tap the "Toggle Live Chat" option (if available).         │
+│         • Step 2: Observe the interface for any delays in loading the live  │
+│           chat.                                                             │
+│         • Step 3: Verify that the live chat interface is now open and ready │
+│           for use.                                                          │
+│      • Expected Result: The live chat interface should open immediately     │
+│        with no noticeable delay after toggling the button.                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
