@@ -1,0 +1,18 @@
+Title: As a user in a community, I can enter a live chat by tapping a button at the top of the community, so that I can discuss an issue in real-time.
+User: Any user who is a member of a community and wants to engage in real-time discussion with other members.
+Goal: To allow users to quickly access and join a live chat within a community by tapping a button at the top of the community page, facilitating real-time communication.
+Scenario:
+Trigger: The user is viewing a community and wants to discuss an issue with other members in real-time.
+Action:
+The user navigates to a community page.
+The user taps the “Live Chat” button located at the top of the community page.
+The platform opens a live chat interface, where the user can see and participate in the real-time discussion.
+Expectation: The user expects to quickly enter the live chat by tapping the button, with the chat interface displaying ongoing discussions and allowing them to send messages.
+Outcome: The user successfully enters the live chat and can engage with other community members in real-time, discussing issues relevant to the community.
+ 
+UAT_Checklist
+ 
+Visibility: The "Live Chat" button should be clearly visible at the top of the community page.
+Quick Access: Tapping the "Live Chat" button should immediately open the live chat interface without delays.
+Real-Time Communication: The chat should allow for real-time discussions with other users in the community.
+User Experience: The process of entering the live chat should be smooth and intuitive, enabling users to quickly engage in ongoing conversations.
